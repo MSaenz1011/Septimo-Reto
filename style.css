@@ -161,6 +161,6 @@ span{
 }
 
 /* flex-grow*/
-/*left y right tienen que ajustarse al .container
+/*left y right tienen que ajustarse al .container (falla el intento)
 /*no debe forzarse el tamaño de .container*/
 /*body al 100vh y flex*/
