@@ -8,7 +8,10 @@
 }
 
 body{
-    background-color: hsl(204, 43%, 93%)
+    background-color: hsl(204, 43%, 93%);
+    height:  100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .guarantee-container h2{
@@ -61,7 +64,6 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .container{
@@ -125,3 +127,40 @@ span{
     width: 85%;
     line-height: 1.5;
 }
+
+@media screen and (max-width: 375px){
+    .card{
+     flex-grow: 1;
+    }
+    
+    .container{
+        flex-direction: column;
+        margin: 50px 30px;
+        padding: 20px 0px;
+        max-height: 100%;
+        max-width: 100%;
+        
+    }
+
+
+    .bottom-content{
+        
+        flex-direction: column;
+    }
+
+    .left-content{
+        max-width: 100%;
+        border-bottom-left-radius: 0;
+    }
+    .right-content{
+        max-width: 100%;
+        border-bottom-left-radius: 1rem;
+
+    }
+    
+}
+
+/* flex-grow*/
+/*left y right tienen que ajustarse al .container
+/*no debe forzarse el tamaño de .container*/
+/*body al 100vh y flex*/
