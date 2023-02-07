@@ -146,6 +146,10 @@ span{
         padding: 25px 15px;
     }
 
+    .guarantee-container h2{
+        font-size: 20px;
+    }
+
     #developers-access{
         font-size: 14px;
     }
@@ -162,7 +166,8 @@ span{
     }
 
     .left-content h2 {
-        width: 66%;
+        width: 88%;
+        font-size: 20px;
     }
 
     span{
@@ -181,7 +186,7 @@ span{
         font-size: 14px;
     }
     .right-content h2{
-        font-size: 18px;
+        font-size: 20px;
     }
     
 }
